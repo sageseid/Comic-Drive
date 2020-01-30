@@ -1,4 +1,4 @@
-//
+ //
 //  ContentView.swift
 //  Comic Drive
 //
@@ -10,12 +10,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+         Color.black.edgesIgnoringSafeArea(.all)
+        .overlay(
+            VStack{
+                Image("comic-drive version 1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        })
+
+            
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+            .previewDevice("iPhone SE")
+            ContentView()
+            .previewDevice("iPhone 8")
+        }
     }
 }
