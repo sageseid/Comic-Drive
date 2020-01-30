@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */; };
+		4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */; };
+		4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E523E2D75A00CB2B9E /* ContentView.swift */; };
+		4EE897E823E2D75D00CB2B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE897E723E2D75D00CB2B9E /* Assets.xcassets */; };
+		4EE897EB23E2D75D00CB2B9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE897EA23E2D75D00CB2B9E /* Preview Assets.xcassets */; };
+		4EE897EE23E2D75D00CB2B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */; };
+		4EE897F923E2D75E00CB2B9E /* Comic_DriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897F823E2D75E00CB2B9E /* Comic_DriveTests.swift */; };
+		4EE8980423E2D75E00CB2B9E /* Comic_DriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8980323E2D75E00CB2B9E /* Comic_DriveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE897F523E2D75E00CB2B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE897D623E2D75A00CB2B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE897DD23E2D75A00CB2B9E;
+			remoteInfo = "Comic Drive";
+		};
+		4EE8980023E2D75E00CB2B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE897D623E2D75A00CB2B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE897DD23E2D75A00CB2B9E;
+			remoteInfo = "Comic Drive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EE897E523E2D75A00CB2B9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EE897E723E2D75D00CB2B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EE897EA23E2D75D00CB2B9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4EE897ED23E2D75D00CB2B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EE897EF23E2D75D00CB2B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE897F423E2D75E00CB2B9E /* Comic DriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic DriveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE897F823E2D75E00CB2B9E /* Comic_DriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_DriveTests.swift; sourceTree = "<group>"; };
+		4EE897FA23E2D75E00CB2B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE897FF23E2D75E00CB2B9E /* Comic DriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic DriveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE8980323E2D75E00CB2B9E /* Comic_DriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_DriveUITests.swift; sourceTree = "<group>"; };
+		4EE8980523E2D75E00CB2B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE897DB23E2D75A00CB2B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897F123E2D75E00CB2B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897FC23E2D75E00CB2B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE897D523E2D75A00CB2B9E = {
+			isa = PBXGroup;
+			children = (
+				4EE897E023E2D75A00CB2B9E /* Comic Drive */,
+				4EE897F723E2D75E00CB2B9E /* Comic DriveTests */,
+				4EE8980223E2D75E00CB2B9E /* Comic DriveUITests */,
+				4EE897DF23E2D75A00CB2B9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE897DF23E2D75A00CB2B9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */,
+				4EE897F423E2D75E00CB2B9E /* Comic DriveTests.xctest */,
+				4EE897FF23E2D75E00CB2B9E /* Comic DriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE897E023E2D75A00CB2B9E /* Comic Drive */ = {
+			isa = PBXGroup;
+			children = (
+				4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */,
+				4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */,
+				4EE897E523E2D75A00CB2B9E /* ContentView.swift */,
+				4EE897E723E2D75D00CB2B9E /* Assets.xcassets */,
+				4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */,
+				4EE897EF23E2D75D00CB2B9E /* Info.plist */,
+				4EE897E923E2D75D00CB2B9E /* Preview Content */,
+			);
+			path = "Comic Drive";
+			sourceTree = "<group>";
+		};
+		4EE897E923E2D75D00CB2B9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4EE897EA23E2D75D00CB2B9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EE897F723E2D75E00CB2B9E /* Comic DriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE897F823E2D75E00CB2B9E /* Comic_DriveTests.swift */,
+				4EE897FA23E2D75E00CB2B9E /* Info.plist */,
+			);
+			path = "Comic DriveTests";
+			sourceTree = "<group>";
+		};
+		4EE8980223E2D75E00CB2B9E /* Comic DriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8980323E2D75E00CB2B9E /* Comic_DriveUITests.swift */,
+				4EE8980523E2D75E00CB2B9E /* Info.plist */,
+			);
+			path = "Comic DriveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE897DD23E2D75A00CB2B9E /* Comic Drive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8980823E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic Drive" */;
+			buildPhases = (
+				4EE897DA23E2D75A00CB2B9E /* Sources */,
+				4EE897DB23E2D75A00CB2B9E /* Frameworks */,
+				4EE897DC23E2D75A00CB2B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comic Drive";
+			productName = "Comic Drive";
+			productReference = 4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EE897F323E2D75E00CB2B9E /* Comic DriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8980B23E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic DriveTests" */;
+			buildPhases = (
+				4EE897F023E2D75E00CB2B9E /* Sources */,
+				4EE897F123E2D75E00CB2B9E /* Frameworks */,
+				4EE897F223E2D75E00CB2B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE897F623E2D75E00CB2B9E /* PBXTargetDependency */,
+			);
+			name = "Comic DriveTests";
+			productName = "Comic DriveTests";
+			productReference = 4EE897F423E2D75E00CB2B9E /* Comic DriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EE897FE23E2D75E00CB2B9E /* Comic DriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE8980E23E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic DriveUITests" */;
+			buildPhases = (
+				4EE897FB23E2D75E00CB2B9E /* Sources */,
+				4EE897FC23E2D75E00CB2B9E /* Frameworks */,
+				4EE897FD23E2D75E00CB2B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE8980123E2D75E00CB2B9E /* PBXTargetDependency */,
+			);
+			name = "Comic DriveUITests";
+			productName = "Comic DriveUITests";
+			productReference = 4EE897FF23E2D75E00CB2B9E /* Comic DriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE897D623E2D75A00CB2B9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = NoelObaseki;
+				TargetAttributes = {
+					4EE897DD23E2D75A00CB2B9E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4EE897F323E2D75E00CB2B9E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4EE897DD23E2D75A00CB2B9E;
+					};
+					4EE897FE23E2D75E00CB2B9E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4EE897DD23E2D75A00CB2B9E;
+					};
+				};
+			};
+			buildConfigurationList = 4EE897D923E2D75A00CB2B9E /* Build configuration list for PBXProject "Comic Drive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE897D523E2D75A00CB2B9E;
+			productRefGroup = 4EE897DF23E2D75A00CB2B9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE897DD23E2D75A00CB2B9E /* Comic Drive */,
+				4EE897F323E2D75E00CB2B9E /* Comic DriveTests */,
+				4EE897FE23E2D75E00CB2B9E /* Comic DriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE897DC23E2D75A00CB2B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE897EE23E2D75D00CB2B9E /* LaunchScreen.storyboard in Resources */,
+				4EE897EB23E2D75D00CB2B9E /* Preview Assets.xcassets in Resources */,
+				4EE897E823E2D75D00CB2B9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897F223E2D75E00CB2B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897FD23E2D75E00CB2B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE897DA23E2D75A00CB2B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */,
+				4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */,
+				4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897F023E2D75E00CB2B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE897F923E2D75E00CB2B9E /* Comic_DriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE897FB23E2D75E00CB2B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE8980423E2D75E00CB2B9E /* Comic_DriveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EE897F623E2D75E00CB2B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE897DD23E2D75A00CB2B9E /* Comic Drive */;
+			targetProxy = 4EE897F523E2D75E00CB2B9E /* PBXContainerItemProxy */;
+		};
+		4EE8980123E2D75E00CB2B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EE897DD23E2D75A00CB2B9E /* Comic Drive */;
+			targetProxy = 4EE8980023E2D75E00CB2B9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EE897ED23E2D75D00CB2B9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EE8980623E2D75E00CB2B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EE8980723E2D75E00CB2B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE8980923E2D75E00CB2B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Comic Drive/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Comic Drive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-Drive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE8980A23E2D75E00CB2B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Comic Drive/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Comic Drive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-Drive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EE8980C23E2D75E00CB2B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic DriveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-DriveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic Drive.app/Comic Drive";
+			};
+			name = Debug;
+		};
+		4EE8980D23E2D75E00CB2B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic DriveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-DriveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic Drive.app/Comic Drive";
+			};
+			name = Release;
+		};
+		4EE8980F23E2D75E00CB2B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic DriveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-DriveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Comic Drive";
+			};
+			name = Debug;
+		};
+		4EE8981023E2D75E00CB2B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic DriveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ng.com.Odin.Comic-DriveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Comic Drive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE897D923E2D75A00CB2B9E /* Build configuration list for PBXProject "Comic Drive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8980623E2D75E00CB2B9E /* Debug */,
+				4EE8980723E2D75E00CB2B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8980823E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic Drive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8980923E2D75E00CB2B9E /* Debug */,
+				4EE8980A23E2D75E00CB2B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8980B23E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic DriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8980C23E2D75E00CB2B9E /* Debug */,
+				4EE8980D23E2D75E00CB2B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE8980E23E2D75E00CB2B9E /* Build configuration list for PBXNativeTarget "Comic DriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8980F23E2D75E00CB2B9E /* Debug */,
+				4EE8981023E2D75E00CB2B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE897D623E2D75A00CB2B9E /* Project object */;
+}
