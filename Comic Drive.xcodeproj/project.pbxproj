@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */; };
 		4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */; };
 		4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */; };
 		4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E523E2D75A00CB2B9E /* ContentView.swift */; };
@@ -15,6 +16,10 @@
 		4EE897EE23E2D75D00CB2B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */; };
 		4EE897F923E2D75E00CB2B9E /* Comic_DriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897F823E2D75E00CB2B9E /* Comic_DriveTests.swift */; };
 		4EE8980423E2D75E00CB2B9E /* Comic_DriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8980323E2D75E00CB2B9E /* Comic_DriveUITests.swift */; };
+		4EE8981523E3042500CB2B9E /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981423E3042500CB2B9E /* BrowseView.swift */; };
+		4EE8981723E308E400CB2B9E /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981623E308E400CB2B9E /* ShelfView.swift */; };
+		4EE8981923E308F900CB2B9E /* CatalogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981823E308F900CB2B9E /* CatalogueView.swift */; };
+		4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981A23E309BC00CB2B9E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerView.swift; sourceTree = "<group>"; };
 		4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		4EE897FF23E2D75E00CB2B9E /* Comic DriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic DriveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8980323E2D75E00CB2B9E /* Comic_DriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_DriveUITests.swift; sourceTree = "<group>"; };
 		4EE8980523E2D75E00CB2B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE8981423E3042500CB2B9E /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		4EE8981623E308E400CB2B9E /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		4EE8981823E308F900CB2B9E /* CatalogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueView.swift; sourceTree = "<group>"; };
+		4EE8981A23E309BC00CB2B9E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E47BE5B23E4251200484AE3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E47BE5C23E4251B00484AE3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E47BE5D23E4252400484AE3 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		4EE897D523E2D75A00CB2B9E = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +130,12 @@
 		4EE897E023E2D75A00CB2B9E /* Comic Drive */ = {
 			isa = PBXGroup;
 			children = (
+				4E47BE5D23E4252400484AE3 /* viewModel */,
+				4E47BE5C23E4251B00484AE3 /* view */,
+				4E47BE5B23E4251200484AE3 /* model */,
+				4EE8981123E2FEDC00CB2B9E /* UI */,
 				4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */,
 				4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */,
-				4EE897E523E2D75A00CB2B9E /* ContentView.swift */,
 				4EE897E723E2D75D00CB2B9E /* Assets.xcassets */,
 				4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */,
 				4EE897EF23E2D75D00CB2B9E /* Info.plist */,
@@ -134,6 +168,19 @@
 				4EE8980523E2D75E00CB2B9E /* Info.plist */,
 			);
 			path = "Comic DriveUITests";
+			sourceTree = "<group>";
+		};
+		4EE8981123E2FEDC00CB2B9E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4EE897E523E2D75A00CB2B9E /* ContentView.swift */,
+				4EE8981423E3042500CB2B9E /* BrowseView.swift */,
+				4EE8981623E308E400CB2B9E /* ShelfView.swift */,
+				4EE8981823E308F900CB2B9E /* CatalogueView.swift */,
+				4EE8981A23E309BC00CB2B9E /* SettingsView.swift */,
+				4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */,
 				4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */,
+				4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */,
 				4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */,
+				4EE8981523E3042500CB2B9E /* BrowseView.swift in Sources */,
+				4EE8981723E308E400CB2B9E /* ShelfView.swift in Sources */,
+				4EE8981923E308F900CB2B9E /* CatalogueView.swift in Sources */,
 				4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
