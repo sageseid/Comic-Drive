@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */; };
+		4E47BE6123E42E7A00484AE3 /* WebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BE6023E42E7A00484AE3 /* WebKitView.swift */; };
 		4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */; };
 		4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */; };
 		4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E523E2D75A00CB2B9E /* ContentView.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerView.swift; sourceTree = "<group>"; };
+		4E47BE6023E42E7A00484AE3 /* WebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitView.swift; sourceTree = "<group>"; };
 		4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,11 +176,12 @@
 			isa = PBXGroup;
 			children = (
 				4EE897E523E2D75A00CB2B9E /* ContentView.swift */,
-				4EE8981423E3042500CB2B9E /* BrowseView.swift */,
 				4EE8981623E308E400CB2B9E /* ShelfView.swift */,
 				4EE8981823E308F900CB2B9E /* CatalogueView.swift */,
 				4EE8981A23E309BC00CB2B9E /* SettingsView.swift */,
 				4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */,
+				4EE8981423E3042500CB2B9E /* BrowseView.swift */,
+				4E47BE6023E42E7A00484AE3 /* WebKitView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */,
 				4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */,
+				4E47BE6123E42E7A00484AE3 /* WebKitView.swift in Sources */,
 				4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */,
 				4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */,
 				4EE8981523E3042500CB2B9E /* BrowseView.swift in Sources */,

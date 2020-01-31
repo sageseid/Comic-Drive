@@ -10,12 +10,7 @@ import SwiftUI
 
 struct BrowseView: View {
     var body: some View {
-     ZStack {
-                     Color.red
-                     .edgesIgnoringSafeArea(.all)
-                     Text("Browse View")
-                         .font(.largeTitle)
-                 }
+        Text("holla")
     }
 }
 

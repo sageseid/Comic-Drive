@@ -42,13 +42,7 @@ struct TabControllerView: View {
 
 struct TabControllerView_Previews: PreviewProvider {
     static var previews: some View {
-        
-        Group {
             TabControllerView()
-            TabControllerView()
-            .previewDevice("iPhone SE")
-            TabControllerView()
-            .previewDevice("iPhone 8")
-        }
+
     }
 }
