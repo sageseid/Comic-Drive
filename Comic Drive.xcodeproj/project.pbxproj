@@ -21,6 +21,7 @@
 		4EE8981723E308E400CB2B9E /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981623E308E400CB2B9E /* ShelfView.swift */; };
 		4EE8981923E308F900CB2B9E /* CatalogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981823E308F900CB2B9E /* CatalogueView.swift */; };
 		4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8981A23E309BC00CB2B9E /* SettingsView.swift */; };
+		4EF057BD23E8649B00E42BE4 /* ShelfRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF057BC23E8649B00E42BE4 /* ShelfRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		4EE8981623E308E400CB2B9E /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
 		4EE8981823E308F900CB2B9E /* CatalogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueView.swift; sourceTree = "<group>"; };
 		4EE8981A23E309BC00CB2B9E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4EF057BC23E8649B00E42BE4 /* ShelfRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +140,6 @@
 				4EE8981123E2FEDC00CB2B9E /* UI */,
 				4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */,
 				4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */,
-				4EE897E723E2D75D00CB2B9E /* Assets.xcassets */,
 				4EE897EC23E2D75D00CB2B9E /* LaunchScreen.storyboard */,
 				4EE897EF23E2D75D00CB2B9E /* Info.plist */,
 				4EE897E923E2D75D00CB2B9E /* Preview Content */,
@@ -175,6 +176,7 @@
 		4EE8981123E2FEDC00CB2B9E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4EE897E723E2D75D00CB2B9E /* Assets.xcassets */,
 				4EE897E523E2D75A00CB2B9E /* ContentView.swift */,
 				4EE8981623E308E400CB2B9E /* ShelfView.swift */,
 				4EE8981823E308F900CB2B9E /* CatalogueView.swift */,
@@ -182,6 +184,7 @@
 				4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */,
 				4EE8981423E3042500CB2B9E /* BrowseView.swift */,
 				4E47BE6023E42E7A00484AE3 /* WebKitView.swift */,
+				4EF057BC23E8649B00E42BE4 /* ShelfRowView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			files = (
 				4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */,
 				4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */,
+				4EF057BD23E8649B00E42BE4 /* ShelfRowView.swift in Sources */,
 				4E47BE6123E42E7A00484AE3 /* WebKitView.swift in Sources */,
 				4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */,
 				4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */,

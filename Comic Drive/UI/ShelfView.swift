@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ShelfView: View {
     var body: some View {
-                ZStack {
+                VStack {
                   Color.red
                   .edgesIgnoringSafeArea(.all)
                   Text("Shelf View")

@@ -10,13 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-         Color.black.edgesIgnoringSafeArea(.all)
-        .overlay(
+
             VStack{
                 Image("comic-drive version 1")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-        })
+        }
 
             
         
