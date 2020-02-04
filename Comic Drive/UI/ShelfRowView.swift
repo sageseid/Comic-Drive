@@ -9,21 +9,24 @@
 import SwiftUI
 
 struct ShelfRowView: View {
+    var post: OfflineComicBookEntry
+    
     var body: some View {
         
         VStack {
-            Image("DefaultComicBookCover")
+            Image(post.comicBookCover)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
 
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Default comic book title")
+                    Text(post.comicBookTitle)
                         .font(.title)
                         .fontWeight(.black)
                         .foregroundColor(.primary)
                         .lineLimit(3)
-                    Text("Written by default author".uppercased())
+                    
+                    Text(post.comicBookAuthor.uppercased())
                         .font(.caption)
                         .foregroundColor(.secondary)
                         .padding(.top)
@@ -43,8 +46,8 @@ struct ShelfRowView: View {
     }
 }
 
-struct ShelfRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        ShelfRowView()
-    }
-}
+//struct ShelfRowView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ShelfRowView(post: <#OfflineComicBookEntry#>)
+//    }
+//}

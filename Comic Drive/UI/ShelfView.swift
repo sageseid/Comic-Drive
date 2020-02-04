@@ -9,13 +9,21 @@
 import SwiftUI
 
 struct ShelfView: View {
+    
+     let posts = TestData.posts()
+    
     var body: some View {
-                VStack {
-                  Color.red
-                  .edgesIgnoringSafeArea(.all)
-                  Text("Shelf View")
-                      .font(.largeTitle)
-              }
+        
+    NavigationView {
+            List {
+        ForEach(posts) { post in
+            ShelfRowView(post: post)
+                            }
+                             }
+            .padding(.leading, -20)
+            .padding(.trailing, -20)
+            .navigationBarTitle(Text("Comic Shelf"))
+                     }
 
     }
 }

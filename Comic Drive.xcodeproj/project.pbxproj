@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */; };
 		4E47BE6123E42E7A00484AE3 /* WebKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BE6023E42E7A00484AE3 /* WebKitView.swift */; };
+		4E4ECE2C23E96F570026717C /* OfflineComicBookEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4ECE2B23E96F570026717C /* OfflineComicBookEntry.swift */; };
+		4E4ECE2F23E971F30026717C /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4ECE2E23E971F30026717C /* TestData.swift */; };
 		4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */; };
 		4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */; };
 		4EE897E623E2D75A00CB2B9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE897E523E2D75A00CB2B9E /* ContentView.swift */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		4E47BE5E23E4279F00484AE3 /* TabControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerView.swift; sourceTree = "<group>"; };
 		4E47BE6023E42E7A00484AE3 /* WebKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitView.swift; sourceTree = "<group>"; };
+		4E4ECE2B23E96F570026717C /* OfflineComicBookEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineComicBookEntry.swift; sourceTree = "<group>"; };
+		4E4ECE2E23E971F30026717C /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		4EE897DE23E2D75A00CB2B9E /* Comic Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE897E123E2D75A00CB2B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE897E323E2D75A00CB2B9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		4E47BE5B23E4251200484AE3 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				4E4ECE2B23E96F570026717C /* OfflineComicBookEntry.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -109,6 +114,14 @@
 			children = (
 			);
 			path = viewModel;
+			sourceTree = "<group>";
+		};
+		4E4ECE2D23E970950026717C /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				4E4ECE2E23E971F30026717C /* TestData.swift */,
+			);
+			path = TestData;
 			sourceTree = "<group>";
 		};
 		4EE897D523E2D75A00CB2B9E = {
@@ -134,6 +147,7 @@
 		4EE897E023E2D75A00CB2B9E /* Comic Drive */ = {
 			isa = PBXGroup;
 			children = (
+				4E4ECE2D23E970950026717C /* TestData */,
 				4E47BE5D23E4252400484AE3 /* viewModel */,
 				4E47BE5C23E4251B00484AE3 /* view */,
 				4E47BE5B23E4251200484AE3 /* model */,
@@ -323,8 +337,10 @@
 				4E47BE5F23E4279F00484AE3 /* TabControllerView.swift in Sources */,
 				4EE897E223E2D75A00CB2B9E /* AppDelegate.swift in Sources */,
 				4EF057BD23E8649B00E42BE4 /* ShelfRowView.swift in Sources */,
+				4E4ECE2F23E971F30026717C /* TestData.swift in Sources */,
 				4E47BE6123E42E7A00484AE3 /* WebKitView.swift in Sources */,
 				4EE8981B23E309BC00CB2B9E /* SettingsView.swift in Sources */,
+				4E4ECE2C23E96F570026717C /* OfflineComicBookEntry.swift in Sources */,
 				4EE897E423E2D75A00CB2B9E /* SceneDelegate.swift in Sources */,
 				4EE8981523E3042500CB2B9E /* BrowseView.swift in Sources */,
 				4EE8981723E308E400CB2B9E /* ShelfView.swift in Sources */,
