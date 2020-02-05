@@ -18,8 +18,8 @@ struct ShelfView: View {
             List {
         ForEach(posts) { post in
             ShelfRowView(post: post)
-                            }
-                             }
+                }
+            }
             .padding(.leading, -20)
             .padding(.trailing, -20)
             .navigationBarTitle(Text("Comic Shelf"))

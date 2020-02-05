@@ -124,6 +124,13 @@
 			path = TestData;
 			sourceTree = "<group>";
 		};
+		4EE3CB9923EB0985006B2676 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		4EE897D523E2D75A00CB2B9E = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +154,7 @@
 		4EE897E023E2D75A00CB2B9E /* Comic Drive */ = {
 			isa = PBXGroup;
 			children = (
+				4EE3CB9923EB0985006B2676 /* Network */,
 				4E4ECE2D23E970950026717C /* TestData */,
 				4E47BE5D23E4252400484AE3 /* viewModel */,
 				4E47BE5C23E4251B00484AE3 /* view */,

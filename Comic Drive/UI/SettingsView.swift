@@ -10,12 +10,58 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-           ZStack {
-                       Color.red
-                       .edgesIgnoringSafeArea(.all)
-                       Text("Settings View")
-                           .font(.largeTitle)
-                   }
+         VStack{
+            Image("settingHeaderImage")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            
+            
+            RoundedRectangle(cornerRadius: 30)
+                    .offset(x: 0, y: -30)
+                    .fill(Color.white)
+            
+            VStack{
+                HStack{
+                Image("settingsIcon")
+                Text("Settings")
+                }
+                Divider()
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #1")
+                               }
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #2")
+                               }
+               HStack{
+                Image("settingsIcon")
+                Text("Settings #3")
+                               }
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #4")
+                               }
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #5")
+                               }
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #6")
+                               }
+                HStack{
+                Image("settingsIcon")
+                Text("Settings #7")
+                               }
+                
+           
+                
+           
+            }
+    
+                    
+                }
     }
 }
 

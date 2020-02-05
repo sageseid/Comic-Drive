@@ -16,7 +16,6 @@ struct CatalogueView: View {
                   Text("CatalogueView")
                       .font(.largeTitle)
               }
-
     }
 }
 
